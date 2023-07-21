@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Multiple Tally Counters</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Multiple Tally Counters</h1>
+
+  <div class="counters">
+    <!-- First Counter -->
+    <div class="counter">
+      <input type="text" id="counter1" placeholder="Enter name">
+      <button onclick="decrement(1)">-</button>
+      <span id="count1">0</span>
+      <button onclick="increment(1)">+</button>
+      <button onclick="reset(1)">Reset</button>
+    </div>
+
+    <!-- Second Counter -->
+    <div class="counter">
+      <input type="text" id="counter2" placeholder="Enter name">
+      <button onclick="decrement(2)">-</button>
+      <span id="count2">0</span>
+      <button onclick="increment(2)">+</button>
+      <button onclick="reset(2)">Reset</button>
+    </div>
+
+    <div class="counter">
+      <input type="text" id="counter3" placeholder="Enter name">
+      <button onclick="decrement(3)">-</button>
+      <span id="count3">0</span>
+      <button onclick="increment(3)">+</button>
+      <button onclick="reset(3)">Reset</button>
+    </div>
+
+    <!-- Add more counters as needed -->
+    <!-- Counter 3, Counter 4, ..., Counter 50 -->
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
